@@ -1,5 +1,5 @@
-import { Navbar } from "../navbar.jsx";
-import { Loadline } from "../loadline.jsx";
+import { Navbar } from "@/components/navbar.jsx";
+import { Loadline } from "@/components/loadline.jsx";
 import { motion } from "framer-motion";
 
 export function Layout({children}) {

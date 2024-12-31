@@ -1,5 +1,5 @@
-import { BentoItem } from "../components/bentoitem";
-import styles from "../css/pages/home.module.css";
+import { BentoItem } from "@/components/bentoitem";
+import styles from "@/css/pages/home.module.css";
 
 const ProjectItem = ({ columns, url, imgSrc, altText, projectName, description, highlights }) => (
     <BentoItem columns={columns} url={url}>

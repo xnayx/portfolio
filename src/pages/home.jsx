@@ -1,12 +1,12 @@
-import { Layout } from "../components/Layouts/principal";
-import Bento from "../components/bentogrid";
-import ProjectItem from "../components/projectitem"; 
-import { BentoItem } from "../components/bentoitem";
-import styles from "../css/pages/home.module.css";
+import { Layout } from "@/components/Layouts/principal";
+import Bento from "@/components/bentogrid";
+import ProjectItem from "@/components/projectitem"; 
+import { BentoItem } from "@/components/bentoitem";
+import styles from "@/css/pages/home.module.css";
 import { motion } from "framer-motion";
 
-import tictactoe from "../assets/projects/tictactoe.png";
-import dashboard from "../assets/projects/dashboard.png";
+import tictactoe from "@/assets/projects/tictactoe.png";
+import dashboard from "@/assets/projects/dashboard.png";
 
 export function Home() {
     return (

@@ -1,6 +1,6 @@
 import {useState} from "react";
 import {motion} from "framer-motion";
-import styles from "../css/components/loadline.module.css";
+import styles from "@/css/components/loadline.module.css";
 
 export function Loadline() {
     const [completed, setComplete] = useState(false);

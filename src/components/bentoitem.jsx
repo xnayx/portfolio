@@ -1,4 +1,4 @@
-import styles from '../css/components/bento/bentoItem.module.css';
+import styles from '@/css/components/bento/bentoItem.module.css';
 
 export function BentoItem({ children, columns, url = '#' }) {
     return (

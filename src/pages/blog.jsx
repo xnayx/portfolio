@@ -1,4 +1,4 @@
-import { Layout } from "../components/Layouts/principal";
+import { Layout } from "@/components/Layouts/principal";
 
 export function Blog() {
     return (
