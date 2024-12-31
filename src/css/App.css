@@ -1,0 +1,11 @@
+#root {
+  padding: 24px 0;
+  max-width: 50em;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #151312;
+  background: linear-gradient(to bottom left, #000, #0d131f);
+  min-height: 100vh;
+}

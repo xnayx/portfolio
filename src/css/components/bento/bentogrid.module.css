@@ -1,0 +1,10 @@
+.bento {
+    display: grid;
+    max-width: 1400px;
+    width: 100%;
+    grid-template-columns: repeat(10, minmax(0, 1fr));
+    grid-auto-rows: 10em;
+    gap: 1em;
+    margin: 0 auto;
+    padding: 20px;
+}
